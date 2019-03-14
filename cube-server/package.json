@@ -1,0 +1,23 @@
+{
+  "name": "cube-serve",
+  "version": "1.0.0",
+  "description": "The server for fast cube",
+  "main": "app.js",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "n"
+  },
+  "keywords": [
+    "cube"
+  ],
+  "author": "yjw",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-static": "^5.0.0"
+  }
+}

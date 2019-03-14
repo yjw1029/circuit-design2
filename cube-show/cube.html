@@ -1,0 +1,64 @@
+<!DOCTYPE html><html><head>
+        <link rel="stylesheet" type="text/css" href="cube.css"></link>
+        </head>
+        <body>
+        <script type="text/javascript" src="http://wow.techbrood.com/libs/jquery/jquery-2.1.1.min.js"></script><!-- 请在移动触摸屏或Chrome移动仿真环境下测试本例，最好切换到全屏模式。 -->
+        
+        <html lang="ja">
+        
+        <head>
+            <meta charset="UTF-8">
+            <title>CSS Rubik Cube Game</title>
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        </head>
+        
+        <body>
+        
+            <div id="container">
+                <!--
+            <div id="btnDemo">
+                <div id="demo1"><input type="button" id="btnDemo1" value="Auto demo Start" /></div>
+                <div id="clear"><input type="button" id="btnClear" value="Forced clear" /></div>
+                <div id="demo2"><input type="button" id="btnDemo2" value="Go to demo1" /></div>
+                <div id="demo3"><input type="button" id="btnDemo3" value="Go to demo2" /></div>
+            </div>
+            -->
+                <div id="stage"></div>
+            </div>
+        
+            <script id="template-face" type="text/x-template">
+                <span class="faceBgColor"><span class="faceColor"></span></span>
+            </script>
+        
+            <script id="template-face-controller" type="text/x-template">
+                <div class="controller">
+                    <div data-dir="up" class="up"></div>
+                    <div data-dir="down" class="down"></div>
+                    <div data-dir="left" class="left"></div>
+                    <div data-dir="right" class="right"></div>
+                </div>
+            </script>
+        
+            <script id="template-cube" type="text/x-template">
+                <div class="face top"><span class="faceBgColor"><span class="faceColor">T</span></span>
+                </div>
+                <div class="face bottom"><span class="faceBgColor"><span class="faceColor">Bo</span></span>
+                </div>
+                <div class="face left"><span class="faceBgColor"><span class="faceColor">L</span></span>
+                </div>
+                <div class="face right"><span class="faceBgColor"><span class="faceColor">R</span></span>
+                </div>
+                <div class="face front"><span class="faceBgColor"><span class="faceColor">F</span></span>
+                </div>
+                <div class="face back"><span class="faceBgColor"><span class="faceColor">Ba</span></span>
+                </div>
+            </script>
+        
+        </body>
+        
+        </html>
+        <script src="./cube.js">
+        </script>
+        </body>
+        </html>
